@@ -1,4 +1,4 @@
-# **Pediatric Pneumonia Chest X-ray Classification** 🫁
+# **Pediatric Pneumonia Chest X-Ray Classification** 🫁
 `PyTorch` approach to classification of pediatric pneumonia chest X-ray with CNN.
 
 <p align="center">
