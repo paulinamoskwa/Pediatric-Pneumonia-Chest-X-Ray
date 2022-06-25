@@ -22,7 +22,7 @@ The goal of this project is to build an automatic classifier that can detect eit
 
 One of the main problems with this project is the fact that the two classes are not balanced. There are many more samples for `PNEUMONIA` than for `NORMAL`.
 
-The approach to the image classification problem involves a neural network. To properly train a neural network (but in general, any classifier) it is necessary for the classes to be balanced. Let us assume that a classifier needs to be able to distinguish an event A from an event B. If the classifier is trained on a few imbalanced data, suppose 99 events A and 1 event B, it will be convenient for it to always predict event A (99\% accuracy on the training set). This is the reason why, when dealing with (strongly) unbalanced classes, as in this case, it is necessary to intervene. 
+The approach to the image classification problem involves a neural network. To properly train a neural network (but in general, any classifier) it is necessary for the classes to be balanced. Let us assume that a classifier needs to be able to distinguish an event A from an event B. If the classifier is trained on a few imbalanced data, suppose 99 events A and 1 event B, it will be convenient for it to always predict event A (99\% accuracy on the training set). This is the reason why, when dealing with (strongly) imbalanced classes, as in this case, it is necessary to intervene. 
 
 I approached the problem in two different ways.
 
