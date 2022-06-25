@@ -51,8 +51,7 @@ By saving all the generated images, from 1 sample it is possible to obtain (in t
 </p>
 
 ## 📝 **Results**
-Through the use of `PyTorch` I build a convolutional neural networks for classification exploiting the neural network *DenseNet 161*.<br>
-As well as for `TensorFlow` and `Keras`, also `PyTorch` makes several famous neural networks easily accessible, enabling transfer learning.
+Through the use of `PyTorch` I build a convolutional neural networks for classification exploiting the neural network *DenseNet 161*. As well as for `TensorFlow` and `Keras`, also `PyTorch` makes several famous neural networks easily accessible, enabling transfer learning.
 
 Detailed results of the two approaches mentioned above can be observed at the following links:
 
@@ -62,8 +61,7 @@ Detailed results of the two approaches mentioned above can be observed at the fo
 ----------------------------------------------------
 
 Both methods performed surprisingly well, leading to an accuracy on test images of 89.42%.<br>
-However, while the overall accuracy on the test turns out to be the same, the errors made by the two networks are of different types.<br>
-I calculated the confusion matrix on the test images for both classifiers and obtained the following results:
+However, while the overall accuracy on the test turns out to be the same, the errors made by the two networks are of different types. I calculated the confusion matrix on the test images for both classifiers and obtained the following results:
 
 <p align="center">
 <img src='./Miscellaneous/cm_weighted.png' width='700'/><br>
