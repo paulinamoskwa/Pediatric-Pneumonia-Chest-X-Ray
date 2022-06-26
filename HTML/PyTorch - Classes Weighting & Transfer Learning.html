@@ -15042,16 +15042,16 @@ $</p>
 <span class="c1">## ===========================</span>
 
 <span class="n">data_transform</span> <span class="o">=</span> <span class="n">transforms</span><span class="o">.</span><span class="n">Compose</span><span class="p">([</span>
-                     <span class="n">transforms</span><span class="o">.</span><span class="n">Resize</span><span class="p">((</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">)),</span>
+                    <span class="n">transforms</span><span class="o">.</span><span class="n">Resize</span><span class="p">((</span><span class="mi">256</span><span class="p">,</span> <span class="mi">256</span><span class="p">)),</span>
                     <span class="n">transforms</span><span class="o">.</span><span class="n">CenterCrop</span><span class="p">(</span><span class="mi">224</span><span class="p">),</span>
                     <span class="n">transforms</span><span class="o">.</span><span class="n">RandomHorizontalFlip</span><span class="p">(),</span>
                     <span class="n">transforms</span><span class="o">.</span><span class="n">RandomRotation</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span>
                     <span class="n">transforms</span><span class="o">.</span><span class="n">RandomGrayscale</span><span class="p">(),</span>
-                    <span class="n">transform</span><span class="o">.</span><span class="n">RandomAffine</span><span class="p">(</span><span class="n">translate</span><span class="o">=</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span><span class="mf">0.05</span><span class="p">),</span> <span class="n">degrees</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span>
+                    <span class="n">transforms</span><span class="o">.</span><span class="n">RandomAffine</span><span class="p">(</span><span class="n">translate</span><span class="o">=</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span> <span class="mf">0.05</span><span class="p">),</span> <span class="n">degrees</span><span class="o">=</span><span class="mi">0</span><span class="p">),</span>
                     <span class="n">transforms</span><span class="o">.</span><span class="n">ToTensor</span><span class="p">()])</span>
 
 <span class="c1"># Assosciate the dataset and the transformations with ImageFolder</span>
-<span class="n">data</span>  <span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">ImageFolder</span><span class="p">(</span><span class="s1">&#39;train&#39;</span><span class="p">,</span> <span class="n">transform</span> <span class="o">=</span> <span class="n">data_transform</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">datasets</span><span class="o">.</span><span class="n">ImageFolder</span><span class="p">(</span><span class="s1">&#39;train&#39;</span><span class="p">,</span> <span class="n">transform</span> <span class="o">=</span> <span class="n">data_transform</span><span class="p">)</span>
 </pre></div>
 
      </div>
